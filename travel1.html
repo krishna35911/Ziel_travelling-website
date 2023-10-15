@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./travel2.css">
+    <title>Plan your trip</title>
+    <link rel="icon" type='images/x-icon' href="./images/ℤ-removebg-preview.png">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <ul></ul>
+          <a class="navbar-brand" href="" ><img src="./images/name-removebg-preview.png" width="100px" alt=""></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul></ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#packages">Packages</a>
+              </li>
+              <ul></ul>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#landmarks">Top Landmarks</a>
+              </li>
+              <ul></ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore more
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Stays</a></li>
+                  <li><a class="dropdown-item" href="#">Flights</a></li>
+                  <li><a class="dropdown-item" href="#">Cars</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Support</a>
+              </li>
+              <ul></ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+              <ul></ul>
+              
+            <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
+            </li>
+            <ul></ul>
+            <ul></ul>
+            <button class="btn btn-outline-primary" type="submit"><i class="fa-solid fa-mobile"></i>       Get the app</button>
+
+         </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- first section -->
+      <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel" style="width: 100%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://cdn.pixabay.com/photo/2018/02/11/08/29/nature-3145287_1280.jpg" class="d-block w-100" alt="..." width="100%" height="400px">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="caro">Unlock Your Dream Destination</h1>
+              <div class="input-group w-50 mx-auto mb-5">
+                <span class="input-group-text bg-info"><i class="fa-solid fa-magnifying-glass" style="color: #161717;"></i></span>
+                <input type="text" class="form-control" placeholder="Search for a place">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://cdn.pixabay.com/photo/2015/07/05/13/44/beach-832346_1280.jpg" class="d-block w-100" alt="..." width="100%" height="400px">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="caro">Unlock Your Dream Destination</h1>
+              <div class="input-group w-50 mx-auto mb-5">
+                <span class="input-group-text bg-warning"><i class="fa-solid fa-magnifying-glass" style="color: #161717;"></i></span>
+                <input type="text" class="form-control f1" placeholder="Search for a place">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://cdn.pixabay.com/photo/2019/06/01/22/01/seychelles-4245171_1280.jpg" class="d-block w-100" alt="..."  width="100%" height="400px">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="caro">Unlock Your Dream Destination</h1>
+              <div class="input-group w-50 mx-auto mb-5">
+                <span class="input-group-text bg-primary"><i class="fa-solid fa-magnifying-glass" style="color: #161717;"></i></span>
+                <input type="text" class="form-control f2" placeholder="Search for a place">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second section -->
+      <div class="container-fluid">
+        <div class="row" id="second">
+          <div class="col-md-12 d-flex mt-4 col-lg-3" id="col">
+            <i class="fa-solid fa-plane-departure mt-2 ms-5 fa-2x " style="color: #0e79dd;"></i> 
+            <p class="ms-4  col-sm-12 col-lg-3"> 15 Years <br><span>of Experience</span> </p>
+          </div>
+          <div class="col-md-12 d-flex mt-4 col-lg-3" id="col">
+            <i class="fa-regular fa-face-smile-beam mt-2 ms-5 fa-2x" style="color: #da7c25;"></i>
+            <p class="ms-4  col-sm-12 col-lg-3"> 10000+ <br><span>happy customers</span> </p>
+          </div>
+          <div class="col-md-12 d-flex mt-4 col-lg-3" id="col">
+            <i class="fa-solid fa-star mt-2 ms-5 fa-2x" style="color: #e4c40d;"></i>
+            <p class="ms-4  col-sm-12 col-lg-3"> 45000+ <br><span>trusted reviews</span> </p>
+          </div>
+          <div class="col-md-12 d-flex mt-4 col-lg-3">
+            <i class="fa-solid fa-globe mt-2 ms-5 fa-2x" style="color: #1cae39;"></i>
+            <p class="ms-4  col-sm-12 col-lg-3"> 25 <br><span>Live tours</span> </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- third section -->
+        <h2 class="text-center mt-4" style="font-size: 40px;">International Packages</h2>
+        <div class="row third">
+          <div class="col-md-12 col-lg-3 mt-4">
+            <div class="card text-bg-dark ms-2">
+              <img src="https://images.pexels.com/photos/17746130/pexels-photo-17746130/free-photo-of-wat-arun-temple-in-bangkok.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" class="card-img" alt="..." height="280px">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Thailand</h5>
+                <p id="p1" style="color: rgba(255, 255, 255, 0.995);">5<sup> Destinations</sup> | 6<sup> nights</sup> 5<sup> days</sup></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-3 mt-4">
+            <div class="card text-bg-dark">
+              <img src="https://cdn.pixabay.com/photo/2017/05/14/13/01/maldives-2312008_1280.jpg" class="card-img-top" class="card-img" alt="..." height="280px">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Maldives</h5>
+                <p id="p1" style="color: rgba(162, 16, 16, 0.909);">3<sup> Destinations</sup> | 4<sup> nights</sup> 3<sup> days</sup></p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-12 col-lg-3 mt-4">
+            <div class="card text-bg-dark">
+              <img src="https://cdn.pixabay.com/photo/2016/07/14/13/35/mountains-1516733_1280.jpg" class="card-img-top" class="card-img" alt="..." height="280px">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Switzerland</h5>
+                <p id="p1" style="color: rgb(255, 255, 255);">4<sup> Destinations</sup> | 5<sup> nights</sup> 3<sup> days</sup></p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-12 col-lg-3 mt-4">
+            <div class="card text-bg-dark mb-2">
+              <img src="https://cdn.pixabay.com/photo/2020/01/22/18/23/istanbul-4785964_1280.jpg" class="card-img-top" class="card-img" alt="..." height="280px">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Turkey</h5>
+                <p id="p1" style="color: rgb(27, 26, 126);">6<sup> Destinations</sup> | 5<sup> nights</sup> 5<sup> days</sup></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Fourth Section -->
+        <h2 class="text-center mt-5" style="font-size: 40px;">Top Landmarks</h2>
+
+        <!-- first row -->
+
+        <div class="row mt-5 ms-4">
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_Palace_Bangkok%2C_Thailand.jpg/1024px-Grand_Palace_Bangkok%2C_Thailand.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">The Grand Palace</h5>
+                    <p class="card-text">The Grand Palace is a complex of buildings at the heart of Bangkok, Thailand.</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://i.pinimg.com/originals/26/95/37/269537f32e8d43067131e7e947601df5.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Tsunami-monument</h5>
+                    <p class="card-text">The Tsunami Moment is a freestanding memorial to the victims of tsunami</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://previews.123rf.com/images/andreyshevchenko/andreyshevchenko1808/andreyshevchenko180800189/123131501-muliaage-in-male-republic-of-the-maldives.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Muliaage Palace</h5>
+                    <p class="card-text">Official Residence of the President of the Maldives and is a must-see in any Male' tour</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second row -->
+
+        <div class="row mt-5 ms-4">
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://switzerlanding.com/wp-content/uploads/2022/11/chapel-bridge.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Chapel-bridge </h5>
+                    <p class="card-text">The covered Chapel Bridge was built in 1365 as part of the cities fortifications.</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/43/8e/94/photo3jpg.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Alimathaa Beach</h5>
+                    <p class="card-text">Alimathaa is a tropical paradise owing to its serene beaches, sparkling soft white sand</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://cdn.pixabay.com/photo/2019/03/08/19/52/galata-4043037_1280.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Galata-Tower</h5>
+                    <p class="card-text">Built as a watchtower at the highest point of the (lost) Walls of Galata</p>
+                    <p class="card-text"><small class="text-muted">1000 Tours and Activities</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row bg-dark text-light p-5">
+          <div class="col-lg-6 col-md-12">
+            <h3>Let us book your tour ..</h3><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.7749091072!2d77.30125673705915!3d12.954459541328697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1696746392944!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      
+          <div class="col-lg-6 col-md-12">
+            <h3>Follow Us On</h3><br>
+            <div class="icon"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+            <div class="icon"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+            <div class="icon"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></div>
+            <div class="icon"><i class="fa-brands fa-threads" style="color: #ffffff;"></i></div>
+            <br><br>
+            <p class="ms-2">0487 2334567, 0487 2556790</p>
+            <p class="ms-2">info@zieltours.in</p>
+          </div>
+          <hr>
+          <p class="text-light text-center">©2023 ziel Package Tour Operator. All Rights Reserved.
+
+            Developed by Technologies</p>
+          <hr>
+        </div>
+
+</body>
+</html>

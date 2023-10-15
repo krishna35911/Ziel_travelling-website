@@ -1,0 +1,48 @@
+.caro{
+    font-size: 35px;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Exo 2', sans-serif;
+    position: relative;
+    padding: 150px;
+}
+#second{
+    background-color: aliceblue;
+}
+#col
+{
+    border-right: 2px solid rgba(0, 0, 0, 0.345);
+}
+.card
+{
+    border: none;
+}
+.third p
+{
+    display:none;
+}
+.third:hover p 
+{
+    display:block;
+    font-weight: bold;
+    transform: translate(15px,20px);
+    font-size: 20px;
+}
+.third:hover img
+{
+    filter:blur(4px);
+}
+.card:hover
+{
+    border: 2px white solid;
+}
+.icon
+{
+    padding: 12px;
+    display: inline;
+}
+
+.company p
+{
+    padding-left: 12px;
+}
